@@ -1,0 +1,47 @@
+body {
+  background-color: #eee;
+}
+
+.maze {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cell {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  margin: 3px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cell.wall {
+  background-color: #1a1a1a;
+  color: #ec0f0f;
+}
+
+.cell.player {
+  background-color: #ff4500;
+  color: #fff;
+  box-shadow: 0px 0px 10px 2px rgba(255, 69, 0, 0.5);
+}
+
+.game-over {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
