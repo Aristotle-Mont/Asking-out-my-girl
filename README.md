@@ -42,7 +42,7 @@ The code is structured as a functional React component called `MazeGame`. It uti
 
 To run the game, you need to have React set up in your project. You can copy the code into a React component file (e.g., `MazeGame.js`) and import it into your application.
 
-#P.S she fell for it hehe
+###P.S she fell for it hehe
 
 ## Conclusion
 
